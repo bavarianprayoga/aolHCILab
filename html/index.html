@@ -12,18 +12,21 @@
 </head>
 <body>
 
-    <!-- TODO: blur(DONE) & hide header when scroll -->
-
     <div class="video-container">
         <video autoplay muted loop id="video-background" loading="lazy">
             <source src="/assets/videos/landscape/mainvid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="video-container-2">
+        <video autoplay muted loop id="video-background-2" loading="lazy">
+            <source src="/assets/videos/landscape/rwb.mp4" type="video/mp4">
         </video>
     </div>
         
     <!-- HEAAADEEERRRR -->
     <header class="header">
         <nav class="nav container">
-            <a href="#" class="logo-rule">
+            <a href="/html/index.html" class="logo-rule">
                 <img src="/assets/images/Asphatl 9 header.png" alt="Asphatl 9: Rejends" id="logo">
             </a>
             <div class="hamburger" id="hamburger">
@@ -64,7 +67,6 @@
     </header>
 
     <!-- HOME CONTENTS -->
-
     <section class="home section">
         <div class="hero-container container grid">
             <div class="phrase-rule">
@@ -84,18 +86,13 @@
     </section>
 
     <section class="brief-description section grid" id="gameplay-description">
-        <div class="video-container-2">
-            <video autoplay muted loop id="video-background-2" loading="lazy">
-                <source src="/assets/videos/landscape/gt3rs.mp4" type="video/mp4">
-            </video>
-        </div>
         <div class="gameplay-container container grid">
             <img src="/assets/videos/landscape/shortgameplay.gif" alt="short gameplay" class="gameplay-gif" id="gameplay-gif">
             <div class="brief-description-container container grid">
                 <div class="gameplay-description">
                     <p class="rubik-heavy description-title">Get Asphatl 9: Rejends</p>
                     <p class="rubik-light description-description">Race in adjudicated multiplayer events. Compete in over 500 cars across 20+ exhilarating tracks with cutting edge AI. Experience the rush of Asphatl 9: Rejens. Witness the adrenaline-fueled action as you race through neon-lit streets, leaving competitors in your wake</p>
-                    <button class="rubik-light install-button">Install</button>
+                    <button class="rubik-light install-button buttons">Install</button>
                 </div>
             </div>
         </div>
@@ -131,7 +128,7 @@
                     <p>Get latest news and update:</p>
                     <form id="footer-form" class="footer-form">
                         <input type="text" id="email footer-form-input" class="footer-form-input" name="email" placeholder="you@example.com" required>
-                        <button class="footer-submit" onclick="validateForm()">Submit</button>
+                        <button class="footer-submit buttons" onclick="validateForm()">Submit</button>
                     </form>
                 </div>
             </div>
