@@ -4,11 +4,11 @@ function updateVideoSource(mediaQuery) {
     var video2 = document.getElementById("video-background-2");
 
     if (video1) {
-        video1.src = mediaQuery.matches ? '/assets/videos/portrait/nsx.mp4' : '/assets/videos/landscape/mainvid.mp4';
+        video1.src = mediaQuery.matches ? '../assets/videos/portrait/nsx.mp4' : '../assets/videos/landscape/mainvid.mp4';
     }
 
     if (video2) {
-        video2.src = mediaQuery.matches ? '/assets/videos/portrait/c61.mp4' : '/assets/videos/landscape/rwb.mp4';
+        video2.src = mediaQuery.matches ? '../assets/videos/portrait/c61.mp4' : '../assets/videos/landscape/rwb.mp4';
     }
 }
 
